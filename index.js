@@ -1,9 +1,9 @@
-const token = '1232088175:AAHObUmq3kc0rS1FkAjVminw36HuzHP5qWs';
+const token = '';
 
 const Telegraf = require('telegraf');
 const axios = require('axios');
 const app = new Telegraf(token);
-const key = "trnsl.1.1.20200523T093230Z.7368dda57e167724.e3d1d9b81240c15ec1823f0a69c872261fe950fa"
+const key = ""
 let state = {};
 
 const message = async (type) => {
